@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-right: 80%;
+    margin-top: 100px;
+    position: relative;
+    bottom: 90px;
+
+}
+
+h1 {
+
+    font-family: "Tilt Warp", sans-serif;
+    font-weight: 800;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    
+
+
+}
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+}
+
+#color-on-top{
+    background: rgb(10, 20, 110);
+
+    background-color: #101073;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%230016b1' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%232222be' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%230016b1' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%232222be' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%23392ECC' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23007798' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%23008fb1' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%231EA9CC' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%23008fb1' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23007798' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%231EA9CC' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23007798' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%231EA9CC' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%23008fb1' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%231EA9CC' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+    height: 30vw;
+    position: relative;
+
+
+}
+
+ 
+#opacity {
+    width: 100%;
+    height: 30vw;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+ }
+
+header {
+    text-align: right;
+
+}
+
+.button-header {
+    height: 50px;
+    width: 120px;
+    margin-right: 100px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 180px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+   
+
+}
+
+
+#one {
+    color: #2525b5;
+    font-size: 20px;
+
+
+}
+#one.active  {
+    background-color: #66a7eb; 
+    color: #333; 
+}
+
+
+#two {
+    background-color: #2525b5;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+#color{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 180px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(89, 114, 127);
+    -moz-box-shadow: 1px 1px 2pxrgb(89, 114, 127);
+    -webkit-box-shadow: 1px 1px 2pxrgb(89, 114, 127);
+
+}
+p,label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #180eab;
+}
+.tosee::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+#rodape{
+
+    background-color: #2525b5;
+    color: white;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 110px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.tosee{
+margin-top: 5px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+    
+}
+
+.tosee,#money{
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(89, 114, 127);
+    -moz-box-shadow: 1px 1px 2pxrgb(89, 114, 127);
+    -webkit-box-shadow: 1px 1px 2pxrgb(89, 114, 127);
+    background:#a7cee2;
+    border:none;
+    width: 180px;
+    height: 30px;
+    outline: none;
+}
+.tosee:hover,
+textarea:hover {
+    background: #ffffff;
+    border: 1px solid #190cce;
+  
+
+}
+#money{
+    width: 70px;
+    height: 30px;
+    padding: 8px;
+}
+::placeholder{
+    color: black;
+    padding: 20px;
+}
+#last{
+    display: block;
+    width: 80vw;
+    height: 50vh;
+    text-align: center;
+    margin: 0 auto;
+   top: 42.5%;
+ left: 160px;
+    overflow: hidden;
+  border: none;
+  /* border-color: rgb(148, 157, 224);
+    border-width: 8px;*/
+    border-radius: 20px 10px 50px;
+    position: absolute;
+    bottom: 120px;
+    background-color: aliceblue;
+}
+
+.caixa{
+    
+    /*background: #667db6;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: rgb(34,66,224);*/
+   background: linear-gradient(220deg, rgba(34,66,224,1) 12%, rgba(78,78,223,1) 38%, rgba(27,182,204,1) 69%);
+    width: 1300px;
+    height: 420px;
+    text-align: center;
+    top: 40%;
+   right: 1100px;
+  left: 9%;
+  padding-right: 25px;
+    position: absolute;
+    display: block;
+    border-radius: 7px;
+    background-size: 300%;
+    animation: AnimarBorda 25s ease-in-out infinite;
+    animation-delay: 1000ms;
+   
+   
+}
+.caixa::before,.caixa::after{
+    background-size: 300%;
+    animation: AnimarBorda 2s  infinite;
+}
+
+@keyframes AnimarBorda {
+    0%{
+ background-position: 0;
+    }
+    100%{
+        background-position: 300% ;
+    }
+}
+.caixa::after{
+    filter: blur(50px);
+}
+
+@media (max-width: 1000px){
+    #color-on-top,#opacity{
+        height: 100vh;
+        width: 100vw;
+    }
+    h2{
+        display: none;
+    }
+   .button-header{
+    display: none;
+   }
+   .caixa{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    top: 37%;
+    
+   }
+   #last{
+    width: 350px;
+    height:350px;
+    position:fixed;
+    top: 40%;
+   
+   }
+}
